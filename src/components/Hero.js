@@ -34,10 +34,10 @@ const Hero = () => {
             <Link to="/contact" className="btn">
               contact me
             </Link>
+            <SocialLinks />
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />
-        <SocialLinks />
       </div>
     </header>
   )

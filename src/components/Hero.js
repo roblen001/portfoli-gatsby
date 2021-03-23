@@ -37,7 +37,9 @@ const Hero = () => {
             <SocialLinks />
           </div>
         </article>
-        <Image fluid={fluid} className="hero-img" />
+        <div style={{ width: 300, height: 300 }}>
+          <Image fluid={fluid} className="hero-img" />
+        </div>
       </div>
     </header>
   )

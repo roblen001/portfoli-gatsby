@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Blogs from "../components/Blogs"
 import { FaBold } from "react-icons/fa"
-
+import SEO from "../components/SEO"
 const Blog = ({
   data: {
     allStrapiBlogs: { nodes: blogs },
@@ -11,6 +11,7 @@ const Blog = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Blog" description="welcome to the blog page" />
       <section className="blog-page">
         <Blogs blogs={blogs} title="blog" />
       </section>

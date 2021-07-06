@@ -1036,8 +1036,6 @@ Blog Template
   border-radius: var(--radius);
 }
 .blog-template img {
-  width: 15rem;
-  height: 15rem;
   margin: 3rem 0;
   object-fit: cover;
 }

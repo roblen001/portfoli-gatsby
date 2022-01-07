@@ -16,5 +16,6 @@ const Error = () => {
       </main>
     </Layout>
   )
+}
 
 export default Error
